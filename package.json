@@ -1,0 +1,15 @@
+{
+  "name": "phone_router",
+  "version": "1.0.0",
+  "description": "Price comparison for phone operators ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Bodérus",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
