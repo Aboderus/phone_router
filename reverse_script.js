@@ -59,7 +59,7 @@ function findBestOperators (results){
 };
 
 // Simulate program input, format number.
- format_number.format('+00046 7321 23 45').then((number) => {
+ format_number.format(process.argv[2]).then((number) => {
     let startTime = new Date;
     Promise.all(
         Object.keys(operators).map((operator) => {
