@@ -59,7 +59,7 @@ function getBestOperatorNames(indexes, operators){
 
 
 
-format_number.format('+00046 7321 23 45').then((number) => {
+format_number.format(process.argv[2]).then((number) => {
     let operatorList = new Array()
     
     Object.entries(operators).map((values) => {
